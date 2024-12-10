@@ -13,17 +13,6 @@ The source code in this repository is directly related to the methodologies and 
 There is no security issue and ethical concerns. 
 
 ## Environment 
-In the following, describe how to access our artifact and all related and necessary data and software components.
-Afterward, describe how to set up everything and how to verify that everything is set up correctly.
-
-
-
-Here’s the description formatted as a Markdown (.md) file:
-
-markdown
-Copy code
-# Software and Environment Requirements
-
 The artifact is developed and tested using **MATLAB R2024a**, with the following MATLAB **Optimization Toolbox** installed. 
 
 The artifact is compatible with major operating systems supported by MATLAB, including:
