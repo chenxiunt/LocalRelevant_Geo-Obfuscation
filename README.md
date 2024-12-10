@@ -2,7 +2,7 @@
 
 Paper title: **Time-Efficient Locally Relevant Geo-Location Privacy Protection**
 
-Artifacts HotCRP Id: **#Enter your HotCRP Id here** (not your paper Id, but the artifacts id)
+Artifacts HotCRP Id: **10**
 
 Requested Badge: **Available**
 
