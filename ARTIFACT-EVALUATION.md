@@ -37,13 +37,6 @@ Minimum Hardware Requirements include
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
 ### Accessibility (All badges)
-Describe how to access your artifact via persistent sources.
-Valid hosting options are institutional and third-party digital repositories.
-Do not use personal web pages.
-For repositories that evolve over time (e.g., Git Repositories ), specify a specific commit-id or tag to be evaluated.
-In case your repository changes during the evaluation to address the reviewer's feedback, please provide an updated link (or commit-id / tag) in a comment.
-
-
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
 
 To ensure reproducibility and consistency during the evaluation process, please refer to the specific commit: [Insert Specific Commit-ID]. This commit represents the exact state of the repository as intended for evaluation.
