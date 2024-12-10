@@ -7,7 +7,32 @@ Artifacts HotCRP Id: **10**
 Requested Badge: **Available**
 
 ## Description
-A short description of your artifact and how it links to your paper.
+The source code in this repository is directly related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**. Below is a detailed description of how the code aligns with the paper's contributions:
+
+## 1. Locally Relevant Geo-Obfuscation (LR-Geo)
+- Implements the core algorithmic framework proposed in the paper, enabling geo-obfuscation by focusing on locally relevant locations for each user.
+- Optimizes location privacy while maintaining computational efficiency using linear programming (LP).
+
+## 2. Geo-Indistinguishability Compliance
+- Ensures adherence to geo-indistinguishability constraints through:
+  - Construction of the Geo-Ind graph to determine locally relevant locations.
+  - Application of exponential mechanisms to maintain privacy across users.
+
+## 3. Experimental Validation
+- Provides scripts and tools to reproduce the experimental results in the paper, including:
+  - Generation of obfuscation matrices.
+  - Comparisons of computational efficiency.
+  - Evaluations of privacy preservation and utility.
+
+## 4. Benders’ Decomposition
+- Implements the Benders' decomposition technique discussed in the paper to solve large-scale LP problems efficiently.
+
+## 5. Real-World Dataset Application
+- Supports processing of real-world datasets, such as the Rome, Italy dataset used in the paper, to validate the practical applicability of the proposed methods.
+
+This repository serves as a practical implementation of the concepts introduced in the paper, enabling researchers and practitioners to explore, validate, and extend the methods.
+
+For more details about the implementation, please refer to the documentation within the repository.
 
 ### Security/Privacy Issues and Ethical Concerns
 There is no security issue and ethical concerns. 
