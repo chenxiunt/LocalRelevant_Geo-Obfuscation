@@ -31,7 +31,7 @@ The artifact is compatible with major operating systems supported by MATLAB, inc
 - **macOS Monterey/Ventura**
 - **Ubuntu Linux 20.04/22.04**
 
-## Minimum Hardware Requirements
+Minimum Hardware Requirements include 
 - **Processor**: Dual-core CPU or higher
 - **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
