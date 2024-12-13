@@ -5,9 +5,6 @@ The source code in this repository is directly related to the methodologies and 
 
 The source code implements our new algorithm "LR-Geo" proposed in the paper, enabling geo-obfuscation by focusing on locally relevant locations for each user. It optimizes location privacy while maintaining computational efficiency using linear programming (LP). It implements the Benders' decomposition technique discussed in the paper to solve large-scale LP problems efficiently.
 
-### Security/Privacy Issues and Ethical Concerns
-There is no security issue and ethical concerns. 
-
 ## Environment 
 The artifact is developed and tested using **MATLAB R2024a**, with the following MATLAB **Optimization Toolbox** installed. 
 
