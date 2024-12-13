@@ -7,24 +7,28 @@ Artifacts HotCRP Id: **10**
 Requested Badge: **Available**
 
 ## Description
-The source code in this repository is directly related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**. The source code implements our new algorithm "LR-Geo" proposed in the paper, enabling geo-obfuscation by focusing on locally relevant locations for each user. It optimizes location privacy while maintaining computational efficiency using linear programming (LP). It implements the Benders' decomposition technique discussed in the paper to solve large-scale LP problems efficiently.
+This repository contains the source code related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**.
+
+The file **`main.m`** implements the data perturbation algorithm **LR-Geo** proposed in the paper. This algorithm facilitates geo-obfuscation by focusing on locally relevant locations for each user, optimizing location privacy while maintaining computational efficiency through **linear programming (LP)**. It also incorporates the **Benders' decomposition technique** to efficiently solve large-scale LP problems, as discussed in the paper.
+
 
 ### Security/Privacy Issues and Ethical Concerns
 There is no security issue and ethical concerns. 
 
 ## Environment 
-The artifact is developed and tested using **MATLAB R2024a**, with the following MATLAB **Optimization Toolbox** installed. 
+The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** installed. The toolbox includes the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming.
 
-The artifact is compatible with major operating systems supported by MATLAB, including:
+### **Supported Operating Systems**
 - **Windows 10/11**
 - **macOS Monterey/Ventura**
 - **Ubuntu Linux 20.04/22.04**
 
-Minimum Hardware Requirements include 
+### **Recommended Hardware Requirements**
 - **Processor**: Dual-core CPU or higher
 - **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
+
 ### Accessibility
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
-Commit-ID: ffdfdadcf8551ff2834d3517422588753ddefba9
+Commit-ID: cd06aa4d0a8b73a53f96e59d58b686ddb2492f5c
