@@ -28,13 +28,10 @@ Minimum Hardware Requirements include
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
 ```
-@article{example2024,
-  author = {John Doe},
-  title = {An Example Article},
-  journal = {Journal of Examples},
-  year = {2024},
-  volume = {10},
-  number = {2},
-  pages = {123--456},
-  doi = {10.1000/exampledoi},
+@INPROCEEDINGS{Qiu_PETS2025,
+  author={Qiu, Chenxi and Liu, *Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, *Xinpeng},
+  booktitle={Proceedings of the 25th Privacy Enhancing Technologies Symposium (PETS)}, 
+  title={[A] Time-Efficient Locally Relevant Geo-Location Privacy Protection}, 
+  year={2025},
+  selected1 = {true},
 }
