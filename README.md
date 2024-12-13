@@ -17,16 +17,6 @@ There is no security issue and ethical concerns.
 ## Environment 
 The artifact is developed and tested using **MATLAB R2024a**, with the following MATLAB **Optimization Toolbox** installed. 
 
-The artifact is compatible with major operating systems supported by MATLAB, including:
-- **Windows 10/11**
-- **macOS Monterey/Ventura**
-- **Ubuntu Linux 20.04/22.04**
-
-Minimum Hardware Requirements include 
-- **Processor**: Dual-core CPU or higher
-- **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
-- **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
-
 ```
 @INPROCEEDINGS{Qiu_PETS2025,
   author={Qiu, Chenxi and Liu, *Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, *Xinpeng},
