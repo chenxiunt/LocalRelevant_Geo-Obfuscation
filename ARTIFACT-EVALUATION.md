@@ -27,5 +27,4 @@ Minimum Hardware Requirements include
 
 ### Accessibility
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
-
-To ensure reproducibility and consistency during the evaluation process, please refer to the specific commit: [Insert Specific Commit-ID]. This commit represents the exact state of the repository as intended for evaluation.
+Commit-ID: ffdfdadcf8551ff2834d3517422588753ddefba9
