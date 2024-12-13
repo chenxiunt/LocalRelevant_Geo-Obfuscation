@@ -11,9 +11,9 @@ In line 14 - 23 of "main.m", you can determine the parameters of the algorithm (
 - OBF_RANGE &nbsp; % The obfuscation range is considered as a circle, and OBF_RANGE is the radius
 - EXP_RANGE &nbsp; % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
 - NEIGHBOR_THRESHOLD = 0.5 &nbsp; % The neighbor threshold eta
-- NR_DEST = 20 &nbsp; % The number of destinations (spatial tasks)
-- NR_USER = 5 &nbsp; % The number of users (agents)
-- NR_LOC = 4; &nbsp; % The total number of locations
+- NR_DEST &nbsp; % The number of destinations (spatial tasks)
+- NR_USER &nbsp; % The number of users (agents)
+- NR_LOC &nbsp; % The total number of locations
 
 ## Environment 
 The artifact is developed and tested using **MATLAB R2024a**, with the MATLAB **Optimization Toolbox** [linprog](https://www.mathworks.com/help/optim/ug/linprog.html) installed. 
