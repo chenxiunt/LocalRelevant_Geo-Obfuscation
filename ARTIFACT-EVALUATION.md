@@ -13,7 +13,8 @@ The file **`main.m`** implements the data perturbation algorithm **LR-Geo** prop
 
 
 ### Security/Privacy Issues and Ethical Concerns
-There is no security issue and ethical concerns. 
+There are no security or ethical concerns.
+
 
 ## Environment 
 The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** installed. The toolbox includes the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming.
