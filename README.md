@@ -6,15 +6,14 @@ The source code in this repository is directly related to the methodologies and 
 In "main.m", we implement the data perturbation algorithm "LR-Geo" proposed in the paper, enabling geo-obfuscation by focusing on locally relevant locations for each user. It optimizes location privacy while maintaining computational efficiency using linear programming (LP). It implements the Benders' decomposition technique discussed in the paper to solve large-scale LP problems efficiently.
 
 ## Algorithm parameters 
- env_parameters.nr_loc_selected = 100; 
-- LR_LOC_SIZE = 20;                                                           % The total number of locations
-- OBF_RANGE = 4.5;                                                            % The obfuscation range is considered as a circle, and OBF_RANGE is the radius
-- EXP_RANGE = 4.0;                                                            % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
-- NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
-- NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
-- NR_USER = 5;                                                                % The number of users (agents)
-- NR_LOC = 4;
-- env_parameters.nr_loc_selected = NR_LOC*100; 
+In line 14 - 23 of "main.m", you can determine the parameters of the algorithm (simulation environment):  
+- LR_LOC_SIZE % The total number of locations
+- OBF_RANGE % The obfuscation range is considered as a circle, and OBF_RANGE is the radius
+- EXP_RANGE % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
+- NEIGHBOR_THRESHOLD = 0.5 % The neighbor threshold eta
+- NR_DEST = 20 % The number of destinations (spatial tasks)
+- NR_USER = 5 % The number of users (agents)
+- NR_LOC = 4; % The total number of locations
 
 ## Environment 
 The artifact is developed and tested using **MATLAB R2024a**, with the MATLAB **Optimization Toolbox** [linprog](https://www.mathworks.com/help/optim/ug/linprog.html) installed. 
