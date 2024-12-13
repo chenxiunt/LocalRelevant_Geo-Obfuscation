@@ -1,47 +1,57 @@
-Paper title: **Time-Efficient Locally Relevant Geo-Location Privacy Protection**
+# **Paper Title: Time-Efficient Locally Relevant Geo-Location Privacy Protection**
 
-## Description
-The source code in this repository is directly related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**. 
+## **Description**
+This repository contains the source code related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**.
 
-In "main.m", we implement the data perturbation algorithm "LR-Geo" proposed in the paper, enabling geo-obfuscation by focusing on locally relevant locations for each user. It optimizes location privacy while maintaining computational efficiency using linear programming (LP). It implements the Benders' decomposition technique discussed in the paper to solve large-scale LP problems efficiently.
+The file **`main.m`** implements the data perturbation algorithm **LR-Geo** proposed in the paper. This algorithm facilitates geo-obfuscation by focusing on locally relevant locations for each user, optimizing location privacy while maintaining computational efficiency through **linear programming (LP)**. It also incorporates the **Benders' decomposition technique** to efficiently solve large-scale LP problems, as discussed in the paper.
 
-## Algorithm parameters 
-In line 14 - 23 of "main.m", you can determine the parameters of the algorithm (simulation environment):  
-- LR_LOC_SIZE &nbsp; % The total number of locations
-- OBF_RANGE &nbsp; % The obfuscation range is considered as a circle, and OBF_RANGE is the radius
-- EXP_RANGE &nbsp; % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
-- NEIGHBOR_THRESHOLD = 0.5 &nbsp; % The neighbor threshold eta
-- NR_DEST &nbsp; % The number of destinations (spatial tasks)
-- NR_USER &nbsp; % The number of users (agents)
-- NR_LOC &nbsp; % The total number of locations
+---
 
-## Environment 
-The artifact is developed and tested using **MATLAB R2024a**, with the MATLAB **Optimization Toolbox** [linprog](https://www.mathworks.com/help/optim/ug/linprog.html) installed. 
+## **How to Run the Code**
+To execute the code:
 
-The artifact is compatible with major operating systems supported by MATLAB, including:
+1. Ensure **MATLAB** is installed on your local computer.
+2. Open MATLAB and run **`main.m`**.
+3. Customize the parameters of the algorithm (simulation environment) in **lines 14–23** of **`main.m`**:
+
+   - `LR_LOC_SIZE` — Total number of locations
+   - `OBF_RANGE` — Radius of the obfuscation range (assumes a circular area)
+   - `EXP_RANGE` — Radius within which the exponential mechanism is not applied
+   - `NEIGHBOR_THRESHOLD = 0.5` — Neighbor threshold (`η`)
+   - `NR_DEST` — Number of destinations (spatial tasks)
+   - `NR_USER` — Number of users (agents)
+   - `NR_LOC` — Total number of locations
+
+4. After running **`main.m`**, the following results are stored in `.mat` files:
+   - **`cost.mat`**: Utility loss caused by the LR-Geo algorithm
+   - **`cost_lower.mat`**: Lower bound of the utility loss
+   - **`nr_iterations.mat`**: Number of iterations in Benders' decomposition
+   - **`computation_time.mat`**: Computation time of the LR-Geo algorithm
+
+---
+
+## **Environment**
+The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** installed. The toolbox includes the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming.
+
+### **Supported Operating Systems**
 - **Windows 10/11**
 - **macOS Monterey/Ventura**
 - **Ubuntu Linux 20.04/22.04**
 
-Suggested Hardware Requirements include 
+### **Recommended Hardware Requirements**
 - **Processor**: Dual-core CPU or higher
 - **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
-After running "main.m", the results are stored in the following mat file:
-- "cost.mat": Utility loss caused "LR-Geo" 
-- "cost_lower.mat": The lower bound of the utility loss
-- "nr_iterations.mat": The number of iterations of Benders decomposition 
-- "computation_time.mat", Computation time of "LR-Geo" 
+---
 
+## **Citation**
+If you use this code in your research, please cite our paper using the following BibTeX entry:
 
-If you are using our code, please cite our PETS paper. You may use the following BibTex entry:
-
-```
+```bibtex
 @INPROCEEDINGS{Qiu_PETS2025,
   author={Qiu, Chenxi and Liu, *Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, *Xinpeng},
   booktitle={Proceedings of the 25th Privacy Enhancing Technologies Symposium (PETS)}, 
   title={[A] Time-Efficient Locally Relevant Geo-Location Privacy Protection}, 
   year={2025},
-  selected1 = {true},
 }
