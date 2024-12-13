@@ -27,7 +27,7 @@ Minimum Hardware Requirements include
 - **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
-
+```
 @article{example2024,
   author = {John Doe},
   title = {An Example Article},
