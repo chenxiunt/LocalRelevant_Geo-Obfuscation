@@ -28,6 +28,12 @@ Suggested Hardware Requirements include
 - **Memory**: 8 GB RAM (16 GB recommended for larger datasets)
 - **Disk Space**: 2 GB of free space for MATLAB installation and artifact files
 
+After running "main.m", the results are stored in the following mat file:
+- "cost.mat": Utility loss caused "LR-Geo" 
+- "cost_lower.mat": The lower bound of the utility loss
+- "nr_iterations.mat": The number of iterations of Benders decomposition 
+- "computation_time.mat", Computation time of "LR-Geo" 
+
 
 If you are using our code, please cite our PETS paper. You may use the following BibTex entry:
 
