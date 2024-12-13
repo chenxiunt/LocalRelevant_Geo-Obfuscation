@@ -9,6 +9,11 @@ In "main.m", we implement the data perturbation algorithm "LR-Geo" proposed in t
 ## Environment 
 The artifact is developed and tested using **MATLAB R2024a**, with the MATLAB **Optimization Toolbox** [linprog](https://www.mathworks.com/help/optim/ug/linprog.html) installed. 
 
+
+
+
+If you are using our code, please cite our PETS paper. You may use the following BibTex entry:
+
 ```
 @INPROCEEDINGS{Qiu_PETS2025,
   author={Qiu, Chenxi and Liu, *Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, *Xinpeng},
