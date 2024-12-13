@@ -58,3 +58,7 @@ server = server.geo_obfuscation_initialization(user, env_parameters);
 computation_time = toc; 
 [nr_violations, violation_mag]= GeoInd_violation_cnt(user, env_parameters); 
 
+save("cost.mat", "cost"); 
+save("cost_lower.mat", "cost_lower"); 
+save("nr_iterations.mat", "nr_iterations"); 
+save("computation_time.mat", "computation_time"); 
