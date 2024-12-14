@@ -62,3 +62,5 @@ save("cost.mat", "cost");
 save("cost_lower.mat", "cost_lower"); 
 save("nr_iterations.mat", "nr_iterations"); 
 save("computation_time.mat", "computation_time"); 
+save("nr_violations.mat", "nr_violations");
+save("violation_mag.mat", "violation_mag");
