@@ -27,7 +27,9 @@ To execute the code:
    - **`cost_lower.mat`**: Lower bound of the utility loss
    - **`nr_iterations.mat`**: Number of iterations in Benders' decomposition
    - **`computation_time.mat`**: Computation time of the LR-Geo algorithm
-
+   - **`nr_violations.mat`**: Number of Geo-indistinguishability violations
+   - **`violation_mag.mat`**: Magnitude of Geo-indistinguishability violations
+   - 
 ---
 
 ## **Environment**
