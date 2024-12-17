@@ -9,7 +9,7 @@ addpath('./func/read_files');
 addpath('./func/haversine'); 
 
 grid_size = 3; 
-CRT_GRID_CELL_SIZE = 0.04; 
+CRT_GRID_CELL_SIZE = 0.025; 
 
 %% Parameters 
 parameters; 
@@ -20,7 +20,7 @@ EXP_RANGE = 4.0;                                                            % Th
 NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
 NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
 NR_USER = 5;                                                                % The number of users (agents)
-NR_LOC = 4;
+NR_LOC = 10;
 env_parameters.nr_loc_selected = NR_LOC*100; 
 
 
@@ -28,7 +28,7 @@ env_parameters.nr_loc_selected = NR_LOC*100;
 % env_parameters = readCityMapInfo(env_parameters);                         % Create the road map information of the target region: Rome, Italy
 env_parameters = readGridMapInfo(env_parameters);                           % Create the road map information of the target region: Rome, Italy
 env_parameters.GAMMA = 20; 
-env_parameters.NEIGHBOR_THRESHOLD = 1000;
+env_parameters.NEIGHBOR_THRESHOLD = 50;
     
 
 %% Create the server
@@ -62,5 +62,5 @@ save("cost.mat", "cost");
 save("cost_lower.mat", "cost_lower"); 
 save("nr_iterations.mat", "nr_iterations"); 
 save("computation_time.mat", "computation_time"); 
-save("nr_violations.mat", "nr_violations");
-save("violation_mag.mat", "violation_mag");
+
+
