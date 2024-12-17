@@ -29,7 +29,6 @@ To execute the code:
    - **`computation_time.mat`**: Computation time of the LR-Geo algorithm
    - **`nr_violations.mat`**: Number of Geo-indistinguishability violations
    - **`violation_mag.mat`**: Magnitude of Geo-indistinguishability violations
-   - 
 ---
 
 ## **Environment**
