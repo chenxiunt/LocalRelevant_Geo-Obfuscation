@@ -32,4 +32,4 @@ The code was developed and tested using **MATLAB R2024a** with the **Optimizatio
 
 ### Accessibility
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
-Commit-ID: 51ad13fc854edc499e163f565c33b1f63379ba52
+Commit-ID: 14581cd51d0f398764a663d925050c95ee34fc51
