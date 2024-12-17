@@ -51,7 +51,7 @@ If you use this code in your research, please cite our paper using the following
 
 ```bibtex
 @INPROCEEDINGS{Qiu_PETS2025,
-  author={Qiu, Chenxi and Liu, *Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, *Xinpeng},
+  author={Qiu, Chenxi and Liu, Ruiyao and Pappachan, Primal and Squicciarini, Anna and Xie, Xinpeng},
   booktitle={Proceedings of the 25th Privacy Enhancing Technologies Symposium (PETS)}, 
   title={[A] Time-Efficient Locally Relevant Geo-Location Privacy Protection}, 
   year={2025},
