@@ -20,7 +20,7 @@ EXP_RANGE = 4.0;                                                            % Th
 NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
 NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
 NR_USER = 5;                                                                % The number of users (agents)
-NR_LOC = 10;
+NR_LOC = 4;
 env_parameters.nr_loc_selected = NR_LOC*100; 
 
 
