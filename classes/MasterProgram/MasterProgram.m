@@ -29,8 +29,10 @@ classdef MasterProgram
         %% Function: Calculate the geo-obfuscation matrix
         function [this, cost, cost_exp] = calculate(this, env_parameters)
             lb = ones(size(this.cost_vector, 2), 1)*0.00001; 
+            ub = ones(size(this.cost_vector, 2), 1)*1; 
             lb(1:size(env_parameters.longitude_selected, 1)) = 0.00001; 
             ub(1:size(env_parameters.longitude_selected, 1)) = 1- 0.99;
+            
             options = optimoptions('linprog','Algorithm','dual-simplex');
             % options = optimoptions('linprog', 'Algorithm', 'interior-point');
             [x, cost, exitflag, ~] = linprog(this.cost_vector, this.cut_set_A, this.cut_set_b, [], [], lb, ub, options); 
