@@ -2,7 +2,7 @@ function [nr_violations, violation_mag] = GeoInd_violation_cnt(user, env_paramet
     nr_violations = 0; 
     violation_mag = [];
     for i = 1:1:size(user, 1)
-        i
+        % i
         for j = i+1:1:size(user, 1)
             obf_matrix_i = ones(env_parameters.nr_loc_selected, env_parameters.nr_loc_selected)*0.000; 
             obf_matrix_i(user(i, 1).LR_loc_ID, user(i, 1).obf_loc_ID) = user(i, 1).obfuscation_matrix; 
