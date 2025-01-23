@@ -123,7 +123,7 @@ classdef Server
             cost = 999; 
             while iter < 100
                 cost_lower = 0;
-                iter
+                % iter
                 [this.master_program, cost_lowerbound(iter), cost_exp] = this.master_program.calculate(env_parameters); 
                 cost_upperbound(iter) = cost_exp;
                 for m = 1:1:size(user, 1)
@@ -131,9 +131,14 @@ classdef Server
                     this.master_program = this.master_program.add_newcuts(this.subproblem(m, 1), user(m, 1), m, env_parameters); 
                     cost_upperbound(iter) = cost_upperbound(iter) + this.subproblem(m, 1).cost; 
                     cost_lower = cost_lower + this.subproblem(m, 1).cost_lower;
-                    cost_upperbound(iter) - cost_lower
+                    % cost_upperbound(iter) - cost_lower
                 end
+                disp(['At iteration ', num2str(iter), ', the upper bound and lower bound of the cost is ', num2str(cost_lowerbound(iter)), ' and ', num2str(cost_upperbound(iter))]);
+                disp(' ');
+
                 if cost_upperbound(iter) - cost_lowerbound(iter) < 0.01 % 1.0
+                    disp('The algorithm is terminated since the gap between the upper bound and the lower bound is smaller than the threshold 0.01');
+                    disp(' ');
                     cost = cost_upperbound(iter); 
                     break; 
                 end
