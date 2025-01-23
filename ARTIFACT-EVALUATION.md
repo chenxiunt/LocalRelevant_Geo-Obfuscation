@@ -17,7 +17,7 @@ There are no security or ethical concerns.
 
 
 ## Environment 
-The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and random number generation functions ([https://www.mathworks.com/help/optim/ug/linprog.html](https://www.mathworks.com/help/matlab/random-number-generation.html)).
+The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and [random number generation functions]([https://www.mathworks.com/help/optim/ug/linprog.html](https://www.mathworks.com/help/matlab/random-number-generation.html)).
 
 ### **Supported Operating Systems**
 - **Windows 10/11**
