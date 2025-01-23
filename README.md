@@ -32,7 +32,7 @@ To execute the code:
 ---
 
 ## **Environment**
-The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolbox includes the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming.
+The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and [**`randsample`**](https://www.mathworks.com/help/stats/randsample.html)) for random sample.
 
 ### **Supported Operating Systems**
 - **Windows 10/11**
