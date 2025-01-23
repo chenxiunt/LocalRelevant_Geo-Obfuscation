@@ -19,11 +19,11 @@ OBF_RANGE = 4.5;                                                            % Th
 EXP_RANGE = 4.0;                                                            % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
 NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
 NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
-NR_USER = 5;                                                                % The number of users (agents)
+NR_USER = 4;                                                                % The number of users (agents)
 NR_LOC = 4;
 env_parameters.nr_loc_selected = NR_LOC*100; 
 
-
+rng(0); 
 %% Initialization
 % env_parameters = readCityMapInfo(env_parameters);                         % Create the road map information of the target region: Rome, Italy
 env_parameters = readGridMapInfo(env_parameters);                           % Create the road map information of the target region: Rome, Italy
@@ -62,5 +62,4 @@ save("cost.mat", "cost");
 save("cost_lower.mat", "cost_lower"); 
 save("nr_iterations.mat", "nr_iterations"); 
 save("computation_time.mat", "computation_time"); 
-
 
