@@ -63,7 +63,7 @@ LR-Geo significantly reduces the expected cost compared to Laplace and ExpMech (
 #### Experiment 1: Computation time
 This experiment is conduct to support the **Main Result 1**. 
 
-To run the simplified version of the experiment, please run the following code 
+To run the ***simplified version*** of the experiment, please run the following code 
 ```bash
 simplified_experiment
 ```
@@ -79,7 +79,7 @@ and the results are stored in the MAT file "computation_time.mat". The computati
 #### Experiment 2: Cost
 This experiment is conduct to support the **Main Result 2**. 
 
-To run the simplified version of the experiment, run the following code 
+To run the ***simplified version*** of the experiment, run the following code 
 ```bash
 simplified_experiment
 ```
