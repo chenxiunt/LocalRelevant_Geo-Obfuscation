@@ -31,22 +31,14 @@ This helps reviewers to schedule the evaluation in their time plan and to see if
 More specifically, a reviewer, who knows that the evaluation might take 10 hours, does not expect an error if, after 1 hour, the computer is still calculating things.
 
 ## Environment 
-The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and the [**`randsample`**](https://www.mathworks.com/help/stats/randsample.html) function for random sample.
 
 ### Accessibility
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
 Commit-ID: 14581cd51d0f398764a663d925050c95ee34fc51
 
 ### Set up the environment (Only for Functional and Reproduced badges)
-Describe how the reviewers should set up the environment for your artifact, including downloading and installing dependencies and the installation of the artifact itself.
-Be as specific as possible here.
-If possible, use code segments to simply the workflow, e.g.,
+The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and the [**`randsample`**](https://www.mathworks.com/help/stats/randsample.html) function for random sample.
 
-```bash
-git clone git@my_awesome_artifact.com/repo
-apt install libxxx xxx
-```
-Describe the expected results where it makes sense to do so.
 
 ### Testing the Environment (Only for Functional and Reproduced badges)
 Describe the basic functionality tests to check if the environment is set up correctly.
