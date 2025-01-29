@@ -52,7 +52,7 @@ main
 for the original experiment
 
 ## Artifact Evaluation
-### The computation time of obfuscation matrix 
+### Main Results and Claims
 #### Main Result 1: Computation time (displayed as "LR-Geo" in Table 1)
 LR-Geo has higher computational time compared to Laplace and ExpMech, it significantly outperforms both LP and ConstOPT in terms of efficiency (described in the first paragraph of Section 5.2.1). 
 
