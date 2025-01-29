@@ -71,13 +71,13 @@ To run the simplified version of the experiment, please run the following code
 ```bash
 simplified_experiment
 ```
-and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. 
+and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. The experiment takes approximately 2-3 minutes. 
 
 To run the original experiment, please run the following code 
 ```bash
 main
 ```
-and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. Note that, to run the original experiment, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
+and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. Note that, to run the original experiment, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. It takes approximately 3 days to complete this experiment. 
 
 
 #### Experiment 2: Cost
@@ -85,7 +85,9 @@ To run the simplified version of the experiment, run the following code
 ```bash
 simplified_experiment
 ```
-and the results are stored in the MAT file "cost.mat". The cost value should be up to approximately 380 meters (or 0.38 kilometers). Similar to Experiment 1, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
+and the results are stored in the MAT file "cost.mat". The cost value should be up to approximately 380 meters (or 0.38 kilometers). The experiment takes approximately 2-3 minutes. 
+
+Similar to Experiment 1, the original experiment takes a longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. It takes approximately 3 days to complete this experiment. 
 
 ## Limitations
 the key outcome of our method—computation time (as shown in Table 1 and Figures 9(a) and 9(b))—is sensitive to changes in the running environment. While the exact results may not be fully consistent due to these variations, we expect the results to remain at a comparable level.
