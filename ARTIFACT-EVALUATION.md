@@ -36,11 +36,11 @@ More specifically, a reviewer, who knows that the evaluation might take 10 hours
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
 Commit-ID: 14581cd51d0f398764a663d925050c95ee34fc51
 
-### Set up the environment (Only for Functional and Reproduced badges)
+### Set up the environment
 The code was developed and tested using **MATLAB R2024a** with the **Optimization Toolbox** and **Statistics and Machine Learning Toolbox** installed. The toolboxes include the [**`linprog`**](https://www.mathworks.com/help/optim/ug/linprog.html) function for linear programming and the [**`randsample`**](https://www.mathworks.com/help/stats/randsample.html) function for random sample.
 
 
-### Testing the Environment (Only for Functional and Reproduced badges)
+### Testing the Environment
 ```bash
 simplified_experiment
 ```
@@ -51,7 +51,7 @@ main
 ```
 for the original experiment
 
-## Artifact Evaluation (Only for Functional and Reproduced badges)
+## Artifact Evaluation
 ### The computation time of obfuscation matrix 
 #### Main Result 1: Computation time (displayed as "LR-Geo" in Table 1)
 LR-Geo has higher computational time compared to Laplace and ExpMech, it significantly outperforms both LP and ConstOPT in terms of efficiency (described in the first paragraph of Section 5.2.1). 
@@ -85,9 +85,8 @@ To run the simplified version of the experiment, run the following code
 ```bash
 simplified_experiment
 ```
-and the results are stored in the MAT file "cost.mat". The computation time of should be around 1.20 to 1.50 seconds. Similar to Experiment 1, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
+and the results are stored in the MAT file "cost.mat". The cost value should be up to approximately 380 meters (or 0.38 kilometers). Similar to Experiment 1, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
 
-## Limitations (Only for Functional and Reproduced badges)
-Describe which tables and results are included or are not reproducible with the provided artifact.
-Provide an argument why this is not included/possible.
+## Limitations
+the key outcome of our method—computation time (as shown in Table 1 and Figures 9(a) and 9(b))—is sensitive to changes in the running environment. While the exact results may not be fully consistent due to these variations, we expect the results to remain at a comparable level.
 
