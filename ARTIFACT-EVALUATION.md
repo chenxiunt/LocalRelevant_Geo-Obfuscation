@@ -84,6 +84,10 @@ simplified_experiment
 ```
 and the results are stored in the MAT file "cost.mat". The cost value should be up to approximately 380 meters (or 0.38 kilometers). The experiment takes approximately 2-3 minutes. 
 
+To run the original experiment, please run the following code 
+```bash
+main
+```
 Similar to Experiment 1, the original experiment takes a longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. It takes approximately 3 days to complete this experiment. 
 
 ## Limitations
