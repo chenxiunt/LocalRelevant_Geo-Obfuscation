@@ -78,6 +78,7 @@ and the results are stored in the MAT file "computation_time.mat". The computati
 
 #### Experiment 2: Cost
 This experiment is conduct to support the **Main Result 2**. 
+
 To run the simplified version of the experiment, run the following code 
 ```bash
 simplified_experiment
