@@ -20,7 +20,7 @@ EXP_RANGE = 4.0;                                                            % Th
 NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
 NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
 NR_USER = 4;                                                                % The number of users (agents)
-load('.\intermediate_results\server.mat')
+load('.\intermediate_results\server.mat');
 % load('.\intermediate_results\server.mat')
 for NR_LOC = 1:1:4
     NR_LOC  
