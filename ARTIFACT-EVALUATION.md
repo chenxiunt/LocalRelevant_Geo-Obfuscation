@@ -60,12 +60,6 @@ LR-Geo has higher computational time compared to Laplace and ExpMech, it signifi
 LR-Geo significantly reduces the expected cost compared to Laplace and ExpMech (described in the first paragraph of Section 5.3.1). 
 
 ### Experiments 
-List each experiment the reviewer has to execute. Describe:
- - How to execute it in detailed steps.
- - What the expected result is.
- - How long it takes and how much space it consumes on disk. (approximately)
- - Which claim and results does it support, and how.
-
 #### Experiment 1: Computation time
 To run the simplified version of the experiment, please run the following code 
 ```bash
