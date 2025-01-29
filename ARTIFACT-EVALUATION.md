@@ -9,7 +9,7 @@ Requested Badge: **Available**
 ## Description
 This repository contains the source code related to the methodologies and experiments presented in the paper titled **"Time-Efficient Locally Relevant Geo-Location Privacy Protection"**.
 
-The file **`main.m`** implements the data perturbation algorithm **LR-Geo** proposed in the paper. This algorithm facilitates geo-obfuscation by focusing on locally relevant locations for each user, optimizing location privacy while maintaining computational efficiency through **linear programming (LP)**. It also incorporates the **Benders' decomposition technique** to efficiently solve large-scale LP problems, as discussed in the paper.
+The file **`main.m`** implements the data obfuscation algorithm **LR-Geo** proposed in the paper. This algorithm facilitates geo-obfuscation by focusing on locally relevant locations for each user, optimizing location privacy while maintaining computational efficiency through **linear programming (LP)**. It also incorporates the **Benders' decomposition technique** to efficiently solve large-scale LP problems, as discussed in the paper.
 
 ### Security/Privacy Issues and Ethical Concerns
 There are no security or ethical concerns.
@@ -52,7 +52,7 @@ main
 for the original experiment
 
 ## Artifact Evaluation (Only for Functional and Reproduced badges)
-### The computation time of perturbation matrix 
+### The computation time of obfuscation matrix 
 #### Main Result 1: Computation time (displayed as "LR-Geo" in Table 1)
 LR-Geo has higher computational time compared to Laplace and ExpMech, it significantly outperforms both LP and ConstOPT in terms of efficiency (described in the first paragraph of Section 5.2.1). 
 
@@ -67,12 +67,17 @@ List each experiment the reviewer has to execute. Describe:
  - Which claim and results does it support, and how.
 
 #### Experiment 1: Computation time
-To run the simplified version of the experiment, run the following code 
+To run the simplified version of the experiment, please run the following code 
 ```bash
 simplified_experiment
 ```
-and the results are stored in the file "computation_time.mat". 
+and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. 
 
+To run the original experiment, please run the following code 
+```bash
+main
+```
+and the results are stored in the MAT file "computation_time.mat". The computation time of should be around 1.20 to 1.50 seconds. Note that, to run the original experiment, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
 
 
 #### Experiment 2: Cost
@@ -80,7 +85,7 @@ To run the simplified version of the experiment, run the following code
 ```bash
 simplified_experiment
 ```
-and the results are stored in the file "cost.mat". 
+and the results are stored in the MAT file "cost.mat". The computation time of should be around 1.20 to 1.50 seconds. Similar to Experiment 1, it takes longer time since the server needs to calculate the cost reference table. The variable "NR_LOC" is changed from 1 to 4, and each experiment needs to be repeated for 20 times. 
 
 ## Limitations (Only for Functional and Reproduced badges)
 Describe which tables and results are included or are not reproducible with the provided artifact.
