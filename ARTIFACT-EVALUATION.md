@@ -44,6 +44,12 @@ The code was developed and tested using **MATLAB R2024a** with the **Optimizatio
 ```bash
 simplified_experiment
 ```
+for an simplified experiment 
+and 
+```bash
+main
+```
+for the original experiment
 
 ## Artifact Evaluation (Only for Functional and Reproduced badges)
 This section includes all the steps required to evaluate your artifact's functionality and validate your paper's key results and claims.
