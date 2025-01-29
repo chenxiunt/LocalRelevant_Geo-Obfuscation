@@ -9,7 +9,7 @@ addpath('./func/read_files');
 addpath('./func/haversine'); 
 
 grid_size = 3; 
-CRT_GRID_CELL_SIZE = 0.025; 
+CRT_GRID_CELL_SIZE = 0.0100; 
 
 %% Parameters 
 parameters; 
@@ -19,7 +19,7 @@ OBF_RANGE = 4.5;                                                            % Th
 EXP_RANGE = 4.0;                                                            % The set of location not applying exponential mechanism is within a circle, of which the radius is EXP_RANGE. 
 NEIGHBOR_THRESHOLD = 0.5;                                                   % The neighbor threshold eta
 NR_DEST = 20;                                                               % The number of destinations (spatial tasks)
-NR_USER = 4;                                                                % The number of users (agents)
+NR_USER = 4;  
 NR_LOC = 4;
 env_parameters.nr_loc_selected = NR_LOC*100; 
 
