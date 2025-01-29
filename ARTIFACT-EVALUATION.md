@@ -36,3 +36,63 @@ The code was developed and tested using **MATLAB R2024a** with the **Optimizatio
 ### Accessibility
 The source code for the artifact can be accessed via a persistent repository hosted on GitHub at the following link: https://github.com/chenxiunt/LocalRelevant_Geo-Obfuscation.
 Commit-ID: 14581cd51d0f398764a663d925050c95ee34fc51
+
+### Set up the environment (Only for Functional and Reproduced badges)
+Describe how the reviewers should set up the environment for your artifact, including downloading and installing dependencies and the installation of the artifact itself.
+Be as specific as possible here.
+If possible, use code segments to simply the workflow, e.g.,
+
+```bash
+git clone git@my_awesome_artifact.com/repo
+apt install libxxx xxx
+```
+Describe the expected results where it makes sense to do so.
+
+### Testing the Environment (Only for Functional and Reproduced badges)
+Describe the basic functionality tests to check if the environment is set up correctly.
+These tests could be unit tests, training an ML model on very low training data, etc..
+If these tests succeed, all required software should be functioning correctly.
+Include the expected output for unambiguous outputs of tests.
+Use code segments to simplify the workflow, e.g.,
+```bash
+python envtest.py
+```
+
+## Artifact Evaluation (Only for Functional and Reproduced badges)
+This section includes all the steps required to evaluate your artifact's functionality and validate your paper's key results and claims.
+Therefore, highlight your paper's main results and claims in the first subsection. And describe the experiments that support your claims in the subsection after that.
+
+### Main Results and Claims
+List all your paper's results and claims that are supported by your submitted artifacts.
+
+#### Main Result 1: Name
+Describe the results in 1 to 3 sentences.
+Refer to the related sections in your paper and reference the experiments that support this result/claim.
+
+#### Main Result 2: Name
+...
+
+### Experiments 
+List each experiment the reviewer has to execute. Describe:
+ - How to execute it in detailed steps.
+ - What the expected result is.
+ - How long it takes and how much space it consumes on disk. (approximately)
+ - Which claim and results does it support, and how.
+
+#### Experiment 1: Name
+Provide a short explanation of the experiment and expected results.
+Describe thoroughly the steps to perform the experiment and to collect and organize the results as expected from your paper.
+Use code segments to support the reviewers, e.g.,
+```bash
+python experiment_1.py
+```
+#### Experiment 2: Name
+...
+
+#### Experiment 3: Name 
+...
+
+## Limitations (Only for Functional and Reproduced badges)
+Describe which tables and results are included or are not reproducible with the provided artifact.
+Provide an argument why this is not included/possible.
+
