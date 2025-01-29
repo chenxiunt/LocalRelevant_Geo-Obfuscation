@@ -52,18 +52,12 @@ main
 for the original experiment
 
 ## Artifact Evaluation (Only for Functional and Reproduced badges)
-This section includes all the steps required to evaluate your artifact's functionality and validate your paper's key results and claims.
-Therefore, highlight your paper's main results and claims in the first subsection. And describe the experiments that support your claims in the subsection after that.
+### The computation time of perturbation matrix 
+#### Main Result 1: Computation time (displayed as "LR-Geo" in Table 1)
+LR-Geo has higher computational time compared to Laplace and ExpMech, it significantly outperforms both LP and ConstOPT in terms of efficiency (described in the first paragraph of Section 5.2.1). 
 
-### Main Results and Claims
-List all your paper's results and claims that are supported by your submitted artifacts.
-
-#### Main Result 1: Name
-Describe the results in 1 to 3 sentences.
-Refer to the related sections in your paper and reference the experiments that support this result/claim.
-
-#### Main Result 2: Name
-...
+#### Main Result 2: Cost (displayed as "LR-Geo" in Table 2)
+LR-Geo significantly reduces the expected cost compared to Laplace and ExpMech (described in the first paragraph of Section 5.3.1). 
 
 ### Experiments 
 List each experiment the reviewer has to execute. Describe:
@@ -72,18 +66,21 @@ List each experiment the reviewer has to execute. Describe:
  - How long it takes and how much space it consumes on disk. (approximately)
  - Which claim and results does it support, and how.
 
-#### Experiment 1: Name
-Provide a short explanation of the experiment and expected results.
-Describe thoroughly the steps to perform the experiment and to collect and organize the results as expected from your paper.
-Use code segments to support the reviewers, e.g.,
+#### Experiment 1: Computation time
+To run the simplified version of the experiment, run the following code 
 ```bash
-python experiment_1.py
+simplified_experiment
 ```
-#### Experiment 2: Name
-...
+and the results are stored in the file "computation_time.mat". 
 
-#### Experiment 3: Name 
-...
+
+
+#### Experiment 2: Cost
+To run the simplified version of the experiment, run the following code 
+```bash
+simplified_experiment
+```
+and the results are stored in the file "cost.mat". 
 
 ## Limitations (Only for Functional and Reproduced badges)
 Describe which tables and results are included or are not reproducible with the provided artifact.
