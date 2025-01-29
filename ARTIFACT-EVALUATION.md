@@ -41,13 +41,8 @@ The code was developed and tested using **MATLAB R2024a** with the **Optimizatio
 
 
 ### Testing the Environment (Only for Functional and Reproduced badges)
-Describe the basic functionality tests to check if the environment is set up correctly.
-These tests could be unit tests, training an ML model on very low training data, etc..
-If these tests succeed, all required software should be functioning correctly.
-Include the expected output for unambiguous outputs of tests.
-Use code segments to simplify the workflow, e.g.,
 ```bash
-python envtest.py
+simplified_experiment
 ```
 
 ## Artifact Evaluation (Only for Functional and Reproduced badges)
